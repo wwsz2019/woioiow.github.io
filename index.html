@@ -249,4 +249,27 @@
 <script src="js/slick.js"></script>
 <script src="js/scripts.js"></script>
 
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.1.2/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/8.1.2/firebase-analytics.js"></script>
+
+<script>
+	// Your web app's Firebase configuration
+	// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+	var firebaseConfig = {
+		apiKey: "AIzaSyBFlHuqeW8tZqKeCgPbkMaKoLYWyi7igHc",
+		authDomain: "moioio.firebaseapp.com",
+		projectId: "moioio",
+		storageBucket: "moioio.appspot.com",
+		messagingSenderId: "173082927878",
+		appId: "1:173082927878:web:3dcbdd668efa5ce5253487",
+		measurementId: "G-6H67NZ5YKW"
+	};
+	// Initialize Firebase
+	firebase.initializeApp(firebaseConfig);
+	firebase.analytics();
+</script>
 </body></html>
